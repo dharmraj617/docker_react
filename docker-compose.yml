@@ -1,0 +1,8 @@
+version: '3.0'
+
+services:
+  mongodb:
+    image: mongodb:3.4
+    restart: always
+    environment:
+      - name=value
